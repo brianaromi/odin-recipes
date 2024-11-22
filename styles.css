@@ -3,16 +3,22 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-#title {
-    color:indianred;
+.header {
+    color: whitesmoke;
     text-decoration: underline black;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: indianred;
 }
 
 .list {
-    color: indigo;
+    color: whitesmoke;
+    background-color: #548CA8;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
     list-style-type: none;
-}
-
-.points {
-    border: solid darkcyan 2px;
+    display: flex;
+    justify-content: space-evenly;
 }
